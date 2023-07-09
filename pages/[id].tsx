@@ -5,15 +5,13 @@ import RefreshButton from "@/components/RefreshButton";
 import Share from "@/components/Share";
 
 export default function Page({ id }: { id: string }) {
-  const imageID = id;
-
   return (
     <div className="flex flex-col items-center h-screen w-screen">
       <HeadMetadata imageID={id} />
       <HeaderText />
       <RefreshButton />
-      <RandomImage />
-      <Share />
+      <RandomImage imageID={id} />
+      <Share imageID={id} />
     </div>
   );
 }

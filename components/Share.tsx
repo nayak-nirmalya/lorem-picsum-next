@@ -7,8 +7,8 @@ import {
   WhatsappIcon,
 } from "react-share";
 
-export default function Share() {
-  const LINK = "https://random-photo-react-picsum.vercel.app/";
+export default function Share({ imageID }: { imageID: string }) {
+  const LINK = `https://random-photo-react-picsum.vercel.app/${imageID}`;
 
   return (
     <div className="inline-block m-2">
