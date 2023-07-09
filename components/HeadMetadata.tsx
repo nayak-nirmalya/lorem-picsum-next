@@ -32,7 +32,7 @@ export default function HeadMetadata({ imageID }: HeadMetadataProps) {
         />
         <meta
           property="og:url"
-          content={`lorem-picsum-next.vercel.app/${imageID}`}
+          content={`https://lorem-picsum-next.vercel.app/${imageID}`}
         />
         <meta
           property="og:description"
