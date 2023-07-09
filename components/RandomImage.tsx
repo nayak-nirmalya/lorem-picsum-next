@@ -21,6 +21,7 @@ export default function RandomImage({ imageID }: { imageID: string }) {
               `https://lorem-picsum-next.vercel.app/${imageID}`
             );
           }}
+          title="Copy Image Link to Clipboard."
           className="h-auto max-w-xl rounded-lg shadow-xl z-10 absolute bottom-0"
           src={`https://picsum.photos/seed/${imageID}/400.webp`}
           alt="Random Image from Lorem Picsum"
