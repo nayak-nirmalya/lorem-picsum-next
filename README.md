@@ -1,5 +1,7 @@
 # Web App for Random Image Display & Share Link Preview Made with Next.js, React, TypeScript, & TailWindCSS
 
+# [LINK TO WEBSITE](https://lorem-picsum-next.vercel.app/)
+
 Key Features:
 
 - Display Random Image
@@ -19,7 +21,7 @@ Key Features:
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/nayak-nirmalya/lorem-picsum-next.git
+git clone https://github.com/nayak-nirmalya/nayak-nirmalya-NirmalyaNayak.git
 ```
 
 ### Install packages
