@@ -16,6 +16,11 @@ export default function RandomImage({ imageID }: { imageID: string }) {
       {imageID && (
         // eslint-disable-next-line @next/next/no-img-element
         <img
+          onClick={() => {
+            navigator.clipboard.writeText(
+              `https://lorem-picsum-next.vercel.app/${imageID}`
+            );
+          }}
           className="h-auto max-w-xl rounded-lg shadow-xl z-10 absolute bottom-0"
           src={`https://picsum.photos/seed/${imageID}/400.webp`}
           alt="Random Image from Lorem Picsum"
