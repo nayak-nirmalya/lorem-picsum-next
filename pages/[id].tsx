@@ -1,14 +1,26 @@
-import { useRouter } from "next/router";
+import HeadMetadata from "@/components/HeadMetadata";
+import HeaderText from "@/components/HeaderText";
+import RandomImage from "@/components/RandomImage";
+import RefreshButton from "@/components/RefreshButton";
+import Share from "@/components/Share";
 
-export default function Page() {
-  const imageID = "";
-  const router = useRouter();
+export default function Page({ id }: { id: string }) {
+  const imageID = id;
+
   return (
-    <>
-      <p>Post: {router.query.id}</p>
-      <div>
-        <p>Hello world!</p>
-      </div>
-    </>
+    <div className="flex flex-col items-center h-screen w-screen">
+      <HeadMetadata imageID={id} />
+      <HeaderText />
+      <RefreshButton />
+      <RandomImage />
+      <Share />
+    </div>
   );
 }
+
+export const getServerSideProps = async (context: {
+  query: { id: string };
+}) => {
+  const { id } = context.query;
+  return { props: { id } };
+};
