@@ -8,7 +8,7 @@ import {
 } from "react-share";
 
 export default function Share({ imageID }: { imageID: string }) {
-  const LINK = `https://random-photo-react-picsum.vercel.app/${imageID}`;
+  const LINK = `lorem-picsum-next.vercel.app/${imageID}`;
 
   return (
     <div className="inline-block m-2">

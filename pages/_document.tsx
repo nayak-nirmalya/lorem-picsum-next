@@ -21,10 +21,7 @@ export default function Document() {
           property="og:image:alt"
           content="Random Image from Lorem Picsum"
         />
-        <meta
-          property="og:url"
-          content="https://random-photo-react-picsum.vercel.app/"
-        />
+        <meta property="og:url" content="lorem-picsum-next.vercel.app/" />
         <meta
           property="og:description"
           content="Random Image from Lorem Picsum. Made with React, TypeScript, TailwindCSS & Vite."
