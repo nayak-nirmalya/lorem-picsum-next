@@ -15,7 +15,7 @@ export default function Document() {
         <meta name="author" content="Nirmalya Nayak" />
 
         {/* Facebook */}
-        <meta property="og:title" content="Random Image from Lorem Picsum" />
+        {/* <meta property="og:title" content="Random Image from Lorem Picsum" />
         <meta property="og:image" content="https://picsum.photos/1200/630" />
         <meta
           property="og:image:alt"
@@ -28,10 +28,10 @@ export default function Document() {
         <meta
           property="og:description"
           content="Random Image from Lorem Picsum. Made with React, TypeScript, TailwindCSS & Vite."
-        />
+        /> */}
 
         {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
+        {/* <meta name="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:image"
           content="https://picsum.photos/1200/630"
@@ -45,7 +45,7 @@ export default function Document() {
         <meta
           name="twitter:description"
           content="Random Image from Lorem Picsum. Made with React, TypeScript, TailwindCSS & Vite."
-        />
+        /> */}
 
         {/* WhatsApp */}
         {/* <meta property="og:image" content="https://picsum.photos/300/300.jpg" />
